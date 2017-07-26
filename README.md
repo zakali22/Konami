@@ -2,7 +2,7 @@
 # A Konami code website based on jQuery
 
 ```
-# Type the Konami code sequence: &uparrow;
+# Type the Konami code sequence: ↑, ↑, ↓, ↓, ←, →, ←, →, b, a;
 ```
 # To see this project:
 
