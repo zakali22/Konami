@@ -1,8 +1,9 @@
 # Konami Code
 # A Konami code website based on jQuery
 
+```
 # Use the Konami code sequence
-
+```
 # To see this project:
 
 ```
