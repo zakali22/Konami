@@ -6,7 +6,7 @@ $(document).ready(function() {
     pressed.push(event.key);
     if (pressed.join(", ").includes(secret)) {
       console.log("HEEEEEEEEEEEEEEEEEEEEEEEEEY");
-      $('body').unbind('keydown');
+      pressed = [];
     }
     console.log(pressed.join(", "));
   });
