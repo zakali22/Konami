@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:200|Poiret+One');
+
 body {
   margin: 0;
   padding: 0;
 /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-  background: brown;
+  background: linear-gradient(to bottom, #3399ff -11%, #00cc99 119%);
   background-attachment: fixed;
   background-size: cover;
+}
+
+.header {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  margin-top: 350px;
+}
+
+.header h1 {
+  font-size: 55px;
 }
 
 /* The only rule that matters */
@@ -27,6 +43,11 @@ body {
   bottom: 10px;
   right: 20px;
   font-size: 20px;
+  color: white;
+}
+
+a, a:link, a:hover, a:visited {
+  color: white;
 }
 
 .footer i {

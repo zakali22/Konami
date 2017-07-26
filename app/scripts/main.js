@@ -5,7 +5,7 @@ $(document).ready(function() {
     /* Act on the event */
     pressed.push(event.key);
     if (pressed.join(", ").includes(secret)) {
-      console.log("HEEEEEEEEEEEEEEEEEEEEEEEEEY");
+      $('.header').css('display', 'none');
       $('#video-background').css('display', 'block');
       $('#video-background').html('<source src="video/Flow.mp4" type="video/mp4">');
       $('body').unbind('keydown');
