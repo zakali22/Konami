@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  window.on('keydown', function(event) {
-    event.preventDefault();
+  var pressed = [];
+  var secret = 'ArrowUp, ArrowUp, ArrowDown, ArrowDown, ArrowLeft, ArrowRight, ArrowLeft, ArrowRight, b, a, ';
+  $('body').on('keydown', function(event) {
     /* Act on the event */
-    console.log(event.key);
+    pressed.push(event.key);
+    if (pressed.join(", ").includes(secret)) {
+      console.log("HEEEEEEEEEEEEEEEEEEEEEEEEEY");
+      $('body').unbind('keydown');
+    }
+    console.log(pressed.join(", "));
   });
 });
