@@ -7,6 +7,7 @@ body {
   background: linear-gradient(to bottom, #3399ff -11%, #00cc99 119%);
   background-attachment: fixed;
   background-size: cover;
+  background-position: top center;
 }
 
 .header {
@@ -42,8 +43,14 @@ body {
   position: absolute;
   bottom: 10px;
   right: 20px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+.footer p:first-child {
+  display: none;
+  color: orange;
 }
 
 a, a:link, a:hover, a:visited {
